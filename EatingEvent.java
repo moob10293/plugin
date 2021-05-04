@@ -18,22 +18,12 @@ public class EatingEvent implements Listener{
         Player person=event.getPlayer();
 
         if (eaten_item.getType() == Material.ROTTEN_FLESH){//rotten flesh
-            event.setCancelled(true);//no, I don't want to add hunger on top of hunger
-            eaten_item.setType(Material.AIR);//gets rid of the food that you ate(possible bug, gets rid of all the food in the stack)
 
             PotionEffect ouch = new PotionEffect(PotionEffectType.POISON,200,2);//initialises the effects to give
-            PotionEffect hungry = new PotionEffect(PotionEffectType.HUNGER,600,1);
 
             person.addPotionEffect(ouch);//applies the effects
-            person.addPotionEffect(hungry);
-            person.setFoodLevel(person.getFoodLevel()+4);//applies the hunger rotten flesh restores(no change here)
         }
         else if (eaten_item.getType() == Material.CHICKEN){
-            event.setCancelled(true);
-
-            person.setFoodLevel(person.getFoodLevel()+2);//no change here either
-            eaten_item.setType(Material.AIR);
-
             PotionEffect hungry = new PotionEffect(PotionEffectType.HUNGER,600,1);//the chance used to be 30%, now it's 100%
             person.addPotionEffect(hungry);
 
