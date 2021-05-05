@@ -1,6 +1,4 @@
-I have an admission to make: I actually didn't even have java when I applied. much less know about coding minecraft plugins. but through the sources below, I was
-able to code the plugin(java was basicly python with a c syntax, so it was actually pretty easy):
 99% of the sources, the bukkit library:
 https://hub.spigotmc.org/javadocs/bukkit/
-a youtube video that helped me code the scanner class:
+a youtube video that helped me code the scanner class(and get started. it was a very basic video):
 https://www.youtube.com/watch?v=GK4aQzxQSoQ
