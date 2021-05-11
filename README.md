@@ -1,6 +1,11 @@
 # plugin
-only the rotten flesh poison thing is ready right now, it's the scanner class.
+features:
+another monster of the same type spawns 3/4 of the time when a monster spawns(that monster has a 3/4 chance of summoning another monster too).
+1/2 of eatable animals(pig,cow,sheep,chicken) spawning are not spawned.
+there is a 1/5 chance a skeleton/spider will spawn if you attack a monster that isn't a skeleton/spider from 3 blocks up.
+monsters do twice as much damage.
+rotten flesh gives you hunger and poison for 5 seconds.
+raw chicken gives you hunger for 30 seconds.
+other foods restore half of their original hunger points.
 
-there might be some capitalization/name/syntax errors
-
-unfortunantly, I was depending on bukkit being able to modify the reach of mobs in order to be able to attack players out of range. bukkit provides no such method/class, so I can't do the Get rid of easy ways to beat mobs(pillaring).
+in progress features: mini boss void lord(netherite zombie). seige system. creepers blow up your stuff.
